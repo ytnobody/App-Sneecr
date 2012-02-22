@@ -1,0 +1,17 @@
+#!/usr/bin/env perl
+
+use strict;
+use App::Sneecr;
+use File::Slurp qw( read_file );
+
+my $json = read_file( \*STDIN );
+my $sneecr = App::Sneecr->new;
+
+if ( @ARGV ) {
+    for my $rtn ( $sneecr->search( $json, @ARGV ) ) {
+        print $rtn;
+    }
+}
+else {
+    print $sneecr->search( $json );
+}
