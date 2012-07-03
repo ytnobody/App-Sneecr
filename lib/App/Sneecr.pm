@@ -58,7 +58,7 @@ See Data::DPath for DPath syntax.
 
 =head1 COMMAND-LINE INTERFACE
 
-App::Sneecr provides "sneecr" as command-line inteface.
+App::Sneecr provides "sneecr" as command-line interface.
 
 =head2 USAGE
 

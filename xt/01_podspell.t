@@ -8,3 +8,8 @@ __DATA__
 satoshi azuma
 ytnobody at gmail dot com
 App::Sneecr
+DPath
+JSON
+STDIN
+json
+sneecr
